@@ -10,5 +10,6 @@ package ec.edu.espol.hilos;
  */
 public class Constantes {
     public static String RUTAIMG = "Archivos/Imagenes/";
+    public static String RUTAUDIOS = "Archivos/algo";
     
 }
