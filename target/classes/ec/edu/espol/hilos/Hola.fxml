@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ec.edu.espol.hilos.HolaController">
+   <children>
+      <VBox prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <ComboBox fx:id="options" onAction="#showRutine" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets left="200.0" />
+               </VBox.margin>
+            </ComboBox>
+         </children>
+      </VBox>
+      <HBox prefHeight="205.0" prefWidth="600.0">
+         <children>
+            <VBox fx:id="VBoxbuttons" prefHeight="205.0" prefWidth="230.0" />
+            <ImageView fx:id="portada" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="100.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</VBox>
